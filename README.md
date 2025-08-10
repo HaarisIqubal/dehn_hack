@@ -65,6 +65,13 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
   - Ensuring compatibility constraints
   - Ranking solutions for simplicity and completeness
 
+
+---
+
+## ** Process Flow**
+![image info](./images/process_graph.png)
+
+
 ---
 
 ## **Tech Stack**
