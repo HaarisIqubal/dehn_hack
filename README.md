@@ -140,18 +140,7 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 ## 📦 Required Dependencies
 
 ```
-"beautifulsoup4>=4.13.4",
-"docling>=2.42.2",
-"html2text>=2025.4.15",
-"langchain>=0.3.26",
-"langchain-google-genai>=2.1.8",
-"langchain-ollama>=0.3.6",
-"langchain-openai>=0.3.28",
-"pydantic>=2.11.7",
-"pypdf2>=3.0.1",
-"reportlab>=4.4.3",
-"sentence-transformers>=5.0.0",
-"streamlit>=1.47.0"
+
 ```
 
 
