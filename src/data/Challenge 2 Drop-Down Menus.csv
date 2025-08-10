@@ -1,0 +1,31 @@
+,,,,,,,,,,,
+,Prozessart,,Merkmalsklassen,,Bauteilkategorie,,Hersteller,Bauteilkategorie,Eigenschaft 1,Eigenschaft  2,Eigenschaft 3
+,,,-,,-,,-,-,-,-,-
+,Hauptprozess,,Applizieren,,Roboter,,KUKA,Roboter,Traglast [kg],Reichweite [mm],Eigengewicht [kg]
+,Teilprozess,,Bereitstellen,,2D-Kamerasystem,,FANUC,Roboterequipment (KUKA),Länge [m],,
+,,,Drucken,,3D-Kamerasystem,,STÄUBLI,SPS-Baustein (SIEMENS),Ansprechpartner,Version,Bibliothekskonformität
+,,,Kontrollieren,,Zylinder,,SENSOPART,Jobsatz (SensoPart),Ansprechpartner,Version,
+,,,Manipulieren,,Achse,,DI-SORIC,Job (SensoPart),Ansprechpartner,Version,
+,,,Erkennen,,Optischer Sensor,,SICK,Jobsatz (Keyence),Ansprechpartner,Version,
+,,,Greifen,,Robotersoftware (KUKA),,IFM,Job (Keyence),Ansprechpartner,Version,
+,,,Bedienoberfläche,,Roboterprogramm (KUKA),,SIEMENS,Roboterprogramm (KUKA),Ansprechpartner,Software,
+,,,Funktion UR,,Roboterequipment (KUKA),,TOPEX,Roboterdokumente (KUKA),Ansprechpartner,Auflösung,Lichtfarbe
+,,,Korrigieren,,Roboterdokumente (KUKA),,DEHN,,Umfang,Anwendung,
+,,,Auswerten,,SPS-Baustein (SIEMENS),,DEHN - ST,,Protokoll,,
+,,,,,Jobsatz (SensoPart),,DEHN - PT,NL Konfig,Ansprechpartner,Treiberversion,
+,,,,,Job (SensoPart),,Universal Robots,Optischer Sensor,Reichweite,Anschluss,Lichtart
+,,,,,Jobsatz (Keyence),,DEHN - REZ,Mechanische Anbindung,Lage,Ausrichtung,
+,,,,,Job (Keyence),,,Pneumatiksystem,Art,Befestigung,
+,,,,,Prüfsystem,,,Greifer/Sauger,Werkstück,Robotertyp,Zusatzfunktion
+,,,,,Hardware SPS,,,,,,
+,,,,,Vision Sensoren,,,,,,
+,,,,,Etikettendrucker,,,,,,
+,,,,,Schnittstelle,,,,,,
+,,,,,NiceLabel,,,,,,
+,,,,,Job (UR),,,,,,
+,,,,,SPS-Datentyp (SIEMENS),,,,,,
+,,,,,Makro(UR),,,,,,
+,,,,,SPS-Datenbaustein (SIEMENS),,,,,,
+,,,,,Mechanische Anbindung,,,,,,
+,,,,,Pneumatiksystem,,,,,,
+,,,,,Greifer/Sauger,,,,,,

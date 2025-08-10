@@ -1,0 +1,23 @@
+﻿Notizen,Prozessnummer,Prozessname,Prozessart,Merkmalsklasse (Feature class) 1,Merkmalsklasse (Feature class) 2,Merkmalsklasse (Feature class) 3,Randbedingung (Boundary condition) 1,Randbedingung (Boundary condition) 2,Verknüpfungen Prozessebene (Links process level),Verknüpfungen Baukastenebene (Links module level),Hinweise (Notes),Ablageort konstruktiv (Storage location constructive),Ablageort steuerungstechnisch (Storage location control-related),Ablageort prüftechnisch (Storage location test technology),Ablageort robotertechnisch (Storage location robotically)
+"Keine einzelne HBG, Versionierung!? bei mehrfacher Umsetzung des Prozesses!?",100000,Etikett applizieren (Apply label),Hauptprozess,Drucken,Korrigieren,Applizieren,Vollautomatisierung,Etikettgröße 50x30,100001 - 100006,Baukasten,,3040983,"TIA-Projekt: V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\SPS (TIA)\FRED
+Kamera: S:\D+S\Collaboration\Kamerapruefung\Programme etc\Job_Fred",,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+,,,,,,,,,,,,,V:\BMB\Team\ST\TIA Bibliotheken\V18\ST_Favoriten_V18,,V:\BMB\Team\ST\KUKA\Fkt_Bibliotheken
+,100001,Etikett drucken und bereitstellen (Print and provide label),Teilprozess,Drucken,Bereitstellen,-,,,100000,Baukasten,Nice-Label -> Datenbank,3040988,,,
+,100002,Etikett aufnehmen und manipulieren (Pick up and manipulate the label),Teilprozess,Manipulieren,Greifen,-,,,100000,Baukasten,I/O-s beachten siehe Checkliste,3040634,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+,100003,Versatz ermitteln (Determine offset),Teilprozess,Kontrollieren,Erkennen,-,,,100000,,,3040795,,,
+,100004,Position korrigieren (Correct position),Teilprozess,Korrigieren,-,-,,,100000,,,3040795,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+,100005,Etikett applizieren (Apply label),Teilprozess,Greifen,Applizieren,-,,,100000,,,3040634,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\ST\KUKA
+,100006,DMC-Code lesen (Read DMC-Code),Teilprozess,Erkennen,Auswerten,-,,,,,,,,,
+,100007,Steckteil zuführen (Insert plug-in part),Hauptprozess,,,,,,,,,,,,
+,100008,Bauteil prüfen (Check component),Hauptprozess,,,,,,,,,,,,
+,100009,Kodierstift Kontrolle (Coding pin control),Teilprozess,,,,,,,,,,,,
+,100010,Trennbock Kontrolle (Divider control),Teilprozess,,,,,,,,,,,,
+,100011,Prüfung statisch (Static testing),Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+,100012,Prüfung dynamisch (Dynamic Testing),Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+,100013,Prüfung Isolation (Isolation Testing),Hauptprozess,,,,,,,,,,,V:\BMB\Team\VORR\1040855 - FRED 3038260\PS,
+,100014,Prüfkennzeichen drucken (Print test indicator),Hauptprozess,,,,,,,,,,,,
+,100015,Palettieren,Hauptprozess,,,,,,,,,,,,
+,100016,,,,,,,,,,,,,,
+,100017,,,,,,,,,,,,,,
+,100018,,,,,,,,,,,,,,
+,100019,,,,,,,,,,,,,,
