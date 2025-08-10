@@ -19,9 +19,8 @@ def setup_view():
         # Convert to DataFrame
         df = pd.DataFrame(sorted_data, columns=columns)
         st.table(df)
-        if st.button("Analyze"):
-            if st.expander("Final Component List"):
-                components_count = final_output()
-                st.table(components_count)
+
+        components_count = final_output()
+        st.table(components_count)
 
 
