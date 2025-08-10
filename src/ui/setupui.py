@@ -3,7 +3,7 @@ import pandas as pd
 from ..tool.query_search import search_losungbib, sepearte_out_process, final_output
 
 def setup_view():
-    st.set_page_config(page_title="DHEN Smart Process Finder", page_icon="🔎", layout="wide")
+    st.set_page_config(page_title="DEHN Smart Process Finder", page_icon="🔎", layout="wide")
     st.title("Search what process you want?")
 
     search_query = st.text_input("Search for the process ..", type="default")

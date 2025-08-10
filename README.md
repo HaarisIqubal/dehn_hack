@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="">
-    Athenis 
+    DEHN Smart Process Finder 
   </a>
 </h1>
 <p align="center">
