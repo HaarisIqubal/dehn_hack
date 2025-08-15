@@ -9,12 +9,6 @@
   Assistent for Production Equipment Engineering
 </p>
 
-<p align="center">
-  <a href="https://github.com/HaarisIqubal/AlignResume/blob/main/LICENSE.txt">
-    <img src="https://img.shields.io/badge/license-GPL3.0-blue.svg" alt="Align Resume is released under the MIT license." />
-  </a>
-</p>
-
 # **DEHN – Next Level Equipment Engineering (Challenge 2)**
 
 ## **Introduction**
@@ -88,7 +82,6 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 - **Consistency:** Reduces variability in component selection.
 - **Scalable:** New processes & components can be integrated without re-engineering the system.
 
-
 ## 📋 Prerequisites
 
 - Python 3.11 or higher
@@ -102,7 +95,7 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd AlignResume
+   cd dehn_hack
    ```
 
 2. **Create virtual environment** (recommended)
@@ -140,10 +133,12 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 ## 📦 Required Dependencies
 
 ```
-
+"pandas>=2.3.1",
+"psycopg2>=2.9.10",
+"python-dotenv>=1.1.1",
+"sentence-transformers>=5.1.0",
+"streamlit>=1.48.0",
 ```
-
-
 ---
 
 ## 💾 Supported File Formats
@@ -157,7 +152,6 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 - **Text**: Plain text extraction
 - **Markdown**: Structured content with formatting
 - **Streamlit Display**: Interactive web interface
-- **Downloadable PDF/HTML**: Exportable Bill of Materials and reports
 
 ---
 
@@ -179,7 +173,7 @@ For support, bug reports, or feature requests:
 
 ---
 
-<center><strong>Developed with ❤️ for automated equipment engineering from 🇩🇪.</strong></center>
+<p align="center"><strong>Developed with ❤️ for automated equipment engineering from 🇩🇪.</strong></p>
 
 
 ---
