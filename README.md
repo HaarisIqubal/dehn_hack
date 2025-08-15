@@ -109,6 +109,17 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
    pip install -r requirements.txt
    ```
 
+4. **Add .env file values**
+Add values inside .env folder
+    ```
+    # Add your database personal data
+    DB_HOST=localhost
+    DB_PORT=5432
+    DB_NAME=mydatabase
+    DB_USER=myuser
+    DB_PASSWORD=mypassword
+    ```
+
 ### Installation using UV
 
 1. **Install UV from your vendor provider**
@@ -116,7 +127,7 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 
 2. **Install dependencies**
    ```bash
-   uv pip install -e .
+   uv pip install project.toml
    ```
 
 ## 🚀 How to Run
@@ -146,34 +157,16 @@ The solution aims to help even *inexperienced* users find suitable solutions whi
 ### Input Formats
 - **Process Data**: Excel/CSV files from DEHN libraries (`.xlsx`, `.csv`)
 - **User Queries**: Natural language input
-- **Manual Modifications**: Ability to add/update processes and building blocks
 
 ### Output Formats
 - **Text**: Plain text extraction
 - **Markdown**: Structured content with formatting
 - **Streamlit Display**: Interactive web interface
 
----
 
-## 📄 License
-
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.txt](LICENSE.txt) file for details.
-
----
-
-## ➕ Support
-
-For support, bug reports, or feature requests:
-- Create an issue on GitHub
-- Review the troubleshooting section in the docs
-
----
 
 ### **Note**: This tool is designed to assist in mapping processes to compatible equipment modules and should be used responsibly. Always review generated selections before deploying in production.
 
 ---
-
 <p align="center"><strong>Developed with ❤️ for automated equipment engineering from 🇩🇪.</strong></p>
 
-
----
